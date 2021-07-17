@@ -1,0 +1,661 @@
+html{
+    font-size: 62.5%;
+}
+a{
+    transition: all 0.5s ease;
+}
+p{
+    font-size: 1.7rem;
+    color:#707070;
+    margin-bottom: 1.2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-box{
+    background-color:transparent;
+}
+.nav-main{
+    display: flex;
+    padding:1.2rem;
+    align-items: center;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    width:100%;
+    z-index: 100;
+
+}
+.nav-main a,#logo{
+    text-decoration: none;
+    color:white;
+}
+#darknight{
+    color:white;
+    font-size: 2rem;
+    margin-right: 1rem;
+    padding:1.5rem;
+}
+#darknight:hover{
+    color:#f85a40;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#logo{
+    margin-left: 2rem;
+    width: 25%;
+    font-size: 2rem;
+}
+
+.nav-items{
+    width:75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.nav-items a,.nav-items input{
+    padding:1.5rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.nav-items a:hover{
+    border-bottom: .2rem solid white;
+}
+#search{
+    border-radius: 2.5rem;
+    width:20rem;
+    height: 4.5rem;
+    outline: none;
+    border: none;
+}
+/* ==========================PAGE 1======================================= */
+.pg1{
+    background: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/banner1.jpg) no-repeat center;
+    background-size: cover;
+    color:white;
+    min-height: 95vh;
+    display: flex;
+    align-items: center;
+    padding-top:4.8rem;
+}
+.pg1:before{
+    content: "";
+    background: linear-gradient(75deg, rgb(6 6 6 / 64%) 8%, transparent);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    min-height: 95vh;
+    max-height: 95vh;
+    
+}
+
+.pg1-body{
+    z-index: 1;
+    margin-right: auto;
+    position: relative;
+    margin-left: 15rem ;
+}
+.pg1-body h3{
+    font-size: 5rem;
+    font-weight: 100;
+}
+.pg1-body h3 span{
+    font-weight: 600;
+}
+
+.pg1-body h4{
+    margin-top: 2rem;
+    font-size: 2.2rem;
+    font-weight: 100; 
+}
+.pg1-buttons{
+    padding-top:5rem;
+    display: flex;
+}
+#pg1-btn1,#pg1-btn2{
+    padding:1.1rem 3rem ;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+#pg1-btn1{
+    background-color: white;
+    border: 2px solid white;
+    color: rgb(77, 0, 150);
+    margin-right: 1rem;
+}
+#pg1-btn2{
+    background-color: none;
+    border: 2px solid white;
+    color: white;
+    margin-right: 1rem;
+}
+
+#pg1-btn1:hover,#pg7-a:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#pg1-btn2:hover{
+    background-color: white;
+    color: rgb(77, 0, 150);
+}
+/* =======================================================PG 2================================ */
+.pg2{
+    padding: 4.5rem 0rem;
+}
+.pg2-container{
+    padding: 4.5rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+    justify-content: center;
+    max-width: 1200px;
+}
+.pg2-left {
+    width: 45%;
+    height: 80%;
+    height: auto;
+    position: relative;
+}
+.pg2-left img{
+    width: 100%;
+}
+.pg2-right{
+    padding-left: 4rem;
+    width: 50%;
+    height: 90%;
+    line-height: 1.5;
+}
+.pg2-right h1{
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+
+}
+.pg2-right p{
+    font-size: 1.7rem;
+    color:#707070;
+    font-weight: 100;
+    letter-spacing: .4px;
+}
+.pg2-right-bottom{
+    display: flex;
+    margin-top: 4rem;
+}
+.pg2-end{
+    width: 50%;
+    margin: 0rem 1rem;
+    line-height: 1.5;
+}
+.pg2-end i{
+    font-size: 35px;
+    color: #f85a40;
+    margin-bottom: 1rem;
+}
+.pg2-end h6{
+    font-size: 2rem;
+    font-weight: 600;
+}
+/* ==============PG 3========================= */
+.pg3{
+    background-color: #fafafa;
+    padding: 4.5rem 0rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pg3-container{
+    padding: 4.5rem 0rem;
+    margin: auto auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.pg3-title{
+    text-align: center;
+    max-width: 75rem;
+}
+.pg3-title h3{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+.pg3-title p{
+    font-size: 2.2rem;
+    color: #707070;
+    font-weight: 100;
+    line-height: 3.2rem;
+}
+.pg3-container-box,.pg8-boxes{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:3rem;
+
+}
+.p3-box,.pg8-box{
+    box-shadow: 0px 0px 9px -6px grey;
+    width: 35rem;
+    height: 40rem;
+    transition: all 0.5s ease;
+
+}
+.p3-box:hover,.pg8-box:hover{
+    box-shadow: 0px 0px 26px -6px gray;
+    width: 35rem;
+    height: 40rem;
+
+}
+.p3-box img,.pg8-box img{
+    width: 100%;
+    height: 60%;
+}
+.p3-box-info,.p8-box-info{
+    padding: 20px;
+    height: 40%;
+    line-height: 1.5;
+}
+#pg3-topic-a{
+    font-size: 2.2rem;
+    color: black;
+    font-weight: 500;
+}
+#pg3-topic-a:hover{
+    color: #f85a40;
+}
+.p3-box-info p{
+    font-size: 1.7rem;
+    color:#707070;
+    margin-bottom: 1.2rem;
+}
+#readmore{
+    color:#f85a40;
+    font-size: 1.3rem;
+}
+/* =========================== PG 4=================================== */
+.pg4,.pg5,.pg6,.pg7,.pg8,.pg9{
+    padding:4rem 0rem;
+}
+.pg4-container,.pg5-container,.pg6-container,.pg8-container,.pg9-container{
+    padding-top: 4rem;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 120rem;
+}
+.container{
+    padding-top: 4rem;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 120rem;
+}
+.pg4-left{
+    width:45%;
+    padding-right: 5rem;
+}
+.pg4-left h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.pg4-left p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color:#707070;
+}
+.pg4-bottom{
+    margin-top: 4rem;
+    display: flex;
+    gap:15rem;
+    
+}
+.pg4-bottom-left{
+    display: flex;
+    align-items: baseline;
+    
+}
+.pg4-bottom-right{
+    display: flex;
+    align-items: baseline;
+}
+.pg4-bottom-left-inside i{
+    font-size:2.5rem;
+    color:rgb(0, 0, 131);
+    margin-right: 1.5rem;
+}
+.pg4-bottom-right-inside h4{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    letter-spacing: .12rem;
+}
+.pg4-bottom-right-inside h4 span{
+    font-size: 2.9rem;
+}
+
+.pg4-right{
+    width: 45%;
+}
+.pg4-right-box{
+    display: flex;
+    margin-top:2rem;
+}
+.pg4-right-left{
+    max-width: 15%;
+}
+.pg4-right-left img{
+    border-radius: 50%;
+}
+.pg4-right-right {
+    padding-top:2rem;
+    padding-left:3rem;
+    max-width: 85%;
+}
+.pg4-right-right span{
+    color: rgb(0, 0, 131);
+    font-size: 5rem;
+}
+.pg4-right-right p{
+    line-height: 1.9rem !important;
+    font-weight: 100 !important;
+}
+.pg4-right-right h5{
+    color: rgb(0, 0, 131);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* ================================PG 5============================================ */
+
+/* ========================================PG 6======================================== */
+.pg6-container{
+    max-width: 120rem;
+    justify-content: space-evenly !important;
+    align-items: center;
+}
+.pg6-left{
+    max-width: 20%;
+}
+.pg6-right{
+    /* margin-left: 4rem; */
+    max-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.pg6-box{
+    max-width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pg6-box i{
+    color:#f85a40;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    margin-top:2rem;
+}
+.pg6-box h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* ======================================PG 7====================================== */
+.pg7{
+    background: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* position: fixed; */
+
+}
+.pg7-container{
+    justify-content: flex-start;
+    margin: auto auto auto 10rem;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    line-height: 5rem;
+    padding: 2rem 0rem;
+}
+.pg7-container h5{
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+.pg7-container h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+#pg7-a{
+    margin-top: 5rem;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 0rem 3.5rem;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+/* ===========================PG 8===================== */
+.pg8-container{
+    justify-content: flex-start;
+}
+.pg8-title{
+    max-width: 67.8rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.pg8-title h4{
+    font-size: 3.5rem;
+}
+.pg8-title p{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.p8-box-info h5{
+    font-size: 1.5rem;
+    font-style: italic;
+    color:rgb(0, 0, 131);
+    text-align: end;
+}
+.p8-box-info h3{
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+#pg8-1-box h3{
+    margin:2rem auto !important;
+}
+.p8-box-info a{
+    color: rgb(0, 0, 131);
+}
+.p8-box-info a:hover{
+    font-size: 1.5rem;
+    color: #f85a40;
+}
+.p8-box-info a span{
+    font-size: 1.5rem;
+}
+/* ==================================PG 9=========================== */
+.pg9{
+    background-color: black;
+    padding-bottom: 5rem;
+}
+
+.pg9-top{
+    display: flex;
+    width: 100%;
+}
+
+.pg9-box{
+    width: 39%;
+    padding: 0rem 2rem;
+}
+.pg9-box a{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.pg9-top a:hover{
+    color:#f85a40;
+}
+.pg9-box i{
+    color:#f85a40;
+}
+.pg9-box h4{
+    color:white;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.pg9-box p{
+    color: #c1c1c1 ;
+    line-height: 1.5;
+}
+.pg9-box-middle{
+    display: flex;
+}
+.pg9-box-middle a{
+    font-size: 1rem;
+    font-size: 1.5rem;
+    color: #c1c1c1;
+}
+.pg9-middle-left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+}
+.pg9-middle-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pg9-box input{
+    padding: 1.2rem 7rem 1.2rem 1rem;
+    outline: none;
+    border-radius: 4px;
+    border:none;
+    font-size: 1.5rem;
+    width: 70%;
+}
+#emailmelogo{
+    color:white;
+    background-color: #f85a40;
+    padding:0px 2.5rem .9rem 2.5rem;
+    border-radius: 4px;
+    border:none;  
+    width: 20%; 
+}
+#emailmelogo i{
+    color:white;
+    font-size: 2rem;
+    text-align: center;  
+}
+#subscribe{
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+}
+.pg9-bottom{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.pg9-bottom-right a{
+    padding:.9rem .9rem;
+    margin: 0.3rem;
+    color:white;
+    background-color: rgb(22, 22, 22);
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+.pg9-bottom-right a:hover{
+    background-color: white;
+    color: #f85a40;
+}
+#creator{
+    color: #f85a40;
+}
+#creator:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media only screen and (max-width:980px){
+    html{
+        font-size: 50%;
+    }
+    /* ===================NAV============== */
+    #logo{
+        width: 100%;
+    }
+    .nav-items{
+        display: none;
+    }
+    /* ==================PG 2================ */
+    .pg2-container{
+        margin: 0rem 10rem;
+    }
+    .pg2-right{
+        width:100%;
+        padding:0rem;
+    }
+    .pg2-right img{
+        height: 5rem;
+    }
+    .pg2-left{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    /* ===================PG 4==================== */
+    .pg4-container{
+        margin: 0rem 10rem;
+    }
+    .pg4-right{
+        width: 100%;
+    }
+    .pg4-left{
+        width: 100%;
+    }
+    /* ========================PG 9========================== */
+    .pg9-container{
+        margin: 0rem 10rem;
+    }
+    .pg9-top{
+        flex-direction: column;
+    }
+    .pg9-box{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:770px){
+    .pg6-container{
+        margin: 0rem 10rem;
+    }
+    .pg6-box{
+        max-width: 50%;
+    }
+    .pg6-left{
+        max-width: 100%;
+    }
+    .pg6-right{
+        max-width: 100%;
+    }
+
+}
